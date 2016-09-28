@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.resume.Gorge"
+    android:background="#fbeca8"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="I have always been a fan of coding in general and coding in Java in particular and developing Android apps helps me put my knowledge to use to develop apps that can be used in the real world and can be useful to everyone on a day to day basis."
+        />
+
+</LinearLayout>

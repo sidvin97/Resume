@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fbeca8"
+    tools:context="com.example.android.resume.Intro">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@mipmap/sid"
+                android:layout_marginRight="15dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Siddhanth Vinay"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USN: 01FB15ECS289"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Hi, I am Siddhanth Vinay, a Third Semester student studying in PES University. I studied from 1st to 10th grade in Presidency School, R.T. Nagar and I did my 11th and 12th grade in Vidya Niketan School. My hobbies are football and music. "/>
+    </LinearLayout>
+</RelativeLayout>

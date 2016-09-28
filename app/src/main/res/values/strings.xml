@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Resume</string>
+    <string name="title_activity_academic_fragment">Academics</string>
+    <string name="title_activity_extra_curricular_fragment">Extra Curricular Activites</string>
+</resources>
